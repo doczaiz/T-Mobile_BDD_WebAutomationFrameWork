@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="T-Moblie Test Suite">
+
+
+    <test name="T-Moblie Test Automation">
+
+        <classes>
+
+<!--            <class name="runner.RegressionTestRunner"/>-->
+<!--            <class name="runner.SmokeTestRunner"/>-->
+<!--            <class name="runner.IntegrationTestRunner"/>-->
+            <class name="runner.SanityTestRunner"/>
+<!--            <class name="runner.UnitTestRunner"/>-->
+
+        </classes>
+
+
+    </test>
+
+
+</suite>
